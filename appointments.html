@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment - Queens Hospital</title>
+    <link rel="stylesheet" href="appointments.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/images/logo.png" alt="Queens Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="appointments.html">Appointments</a></li>
+                    <li><a href="pharmacy.html">Pharmacy</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <input type="text" placeholder="Search..." class="search-bar">
+                <button class="appointment-btn">Make an Appointment</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+        </section>
+        <section class="appointment-section">
+            <h2>Book Your Appointment</h2>
+            <div class="appointment-content">
+                <div class="image-placeholder">
+                    <img src="images/image5.jpg" alt="Appointment Image">
+                </div>
+                <form class="appointment-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email-contact">Email & Contact</label>
+                    <input type="text" id="email-contact" name="email-contact" required>
+
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" required>
+
+                    <label for="details">Details</label>
+                    <textarea id="details" name="details" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Queens Hospital. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
